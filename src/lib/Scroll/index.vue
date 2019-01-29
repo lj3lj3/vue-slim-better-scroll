@@ -365,6 +365,9 @@ export default {
     scrollToBottom () {
       this.scroll && this.scrollTo(0, this.scroll.maxScrollY)
     },
+    openPullDown () {
+      this.scroll && this.openPullDown()
+    }
   },
 }
 </script>
